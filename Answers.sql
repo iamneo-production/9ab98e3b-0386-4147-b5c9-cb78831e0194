@@ -41,3 +41,4 @@ GROUP BY "Position Title"; --Elapsed:  00:00:00:06
 SELECT COUNT(*) NO_OF_EMPLOYEES FROM HR_DEPARTMENT
 WHERE "Period Pay Rate" <50000 ;--Elapsed:  00:00:00:16
 
+--completed the query
