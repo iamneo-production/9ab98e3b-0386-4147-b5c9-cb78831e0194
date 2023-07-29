@@ -1,5 +1,5 @@
 set timing on;
-select * from hr_department;
+
 -- write a SQL query to find the employee count for each agency*/
 select agency,count(*) as EMPLOYEES_COUNT from hr_department
 group by agency; 
