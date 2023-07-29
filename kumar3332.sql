@@ -1,5 +1,3 @@
-
-
 -- Write a SQL Query to find the employee count for each agency?
 set timing on;
 select agency,count(*) no_of_employees from HR_DEPARTMENT group by agency;
