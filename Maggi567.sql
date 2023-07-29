@@ -1,3 +1,4 @@
+
 set timing on;
 
 -- write a query to  find the employee count for each agency */
