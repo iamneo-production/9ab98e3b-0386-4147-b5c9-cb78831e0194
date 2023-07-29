@@ -5,11 +5,11 @@ set timing on;
 select agency,count(*) from hr_department group by agency ;
 
 /*write a sql query to list the employee name work under agency ABE LINCOLN PRES LIBRARY MUS2*/
-select "Employee Name" Name from hr_department
+select "Employee Name" as Name  from hr_department
  where agency  = 'ABE LINCOLN PRES LIBRARY MUS2';
 
 /*write a sql query to list the employees who are all CONTRACTUAL WORKER*/
- select "Employee Name" Name from hr_department where "Position Title" = 'CONTRACTUAL WORKER'; 
+ select "Employee Name" as Name  from hr_department where "Position Title" = 'CONTRACTUAL WORKER'; 
 
 /*write a sql query to find the employees count in each position */
 select  "Position Title" , count(*)  from hr_department group by "Position Title" ;  
