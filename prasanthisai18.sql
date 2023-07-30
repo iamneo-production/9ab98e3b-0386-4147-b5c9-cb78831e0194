@@ -1,8 +1,8 @@
-set timing on;
-
+SET TIMING ON;
 -- write a SQL query to find the employee count for each agency 
 select agency,count(*) as EMP_COUNT from hr_department
 group by agency; 
+
 
 --write a SQL query to list the employees who are all CONTRACTUAL WORKER 
 select "Employee Name" from HR_DEPARTMENT
