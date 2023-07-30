@@ -14,7 +14,7 @@ GROUP BY "AGENCY";
 SELECT "Employee Name" FROM HR_DEPARTMENT
 WHERE "Position Title" = 'CONTRACTUAL WORKER';
 
-/*To optimize the query ,create index on position title so it return the result faster */
+--To optimize the query ,create index on position title so it return the result faster
 create index hr_position on HR_DEPARTMENT ("Position Title");
 
 SELECT "Employee Name" FROM HR_DEPARTMENT
@@ -25,7 +25,7 @@ WHERE "Position Title" = 'CONTRACTUAL WORKER' ;
 SELECT "Employee Name" FROM HR_DEPARTMENT
 WHERE AGENCY = 'ABE LINCOLN PRES LIBRARY  MUS2'; 
 
-/*To optimize the query ,create index on agency title so it return the result faster */
+--To optimize the query ,create index on agency title so it return the result faster
 create index hr_agency on hr_department (agency);
 
 SELECT "Employee Name" FROM HR_DEPARTMENT
