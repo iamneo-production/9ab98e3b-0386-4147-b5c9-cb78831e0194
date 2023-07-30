@@ -2,7 +2,7 @@
 
 -- Write a SQL Query to find the employee count for each agency?
 set timing on;
-select agency,count(*) no_of_employees from HR_DEPARTMENT group by agency;
+select agency,count(*) as no_of_employees from HR_DEPARTMENT group by agency;
 
 
 --Write a SQL Query to list the employees who are all CONTRACTUAL WORKER?*/
@@ -18,4 +18,4 @@ select "Position Title",count(*) as employee_count from HR_DEPARTMENT group by "
 
 
 --Write a SQL Query to count the number of employees whose period pay rate is less than 50000.*/
-select count(*) no_of_employees from HR_DEPARTMENT where "Period Pay Rate" < 50000;
+select count(*) as no_of_employees from HR_DEPARTMENT where "Period Pay Rate" < 50000;
