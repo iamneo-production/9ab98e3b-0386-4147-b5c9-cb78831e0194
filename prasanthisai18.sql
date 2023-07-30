@@ -14,7 +14,7 @@ where Agency ='ABE LINCOLN PRES LIBRARY MUS2';
 
 --write a SQL query to find the employees count in each position? 
 select "Position Title",count(*) as EMP_COUNT from HR_DEPARTMENT
-group by "Position Title" ;
+group by "Position Title";
 
 --Write a SQL query to count the number of employees whose period pay rate is less than 50000 
 select count(*) as EMP_COUNT from HR_DEPARTMENT
