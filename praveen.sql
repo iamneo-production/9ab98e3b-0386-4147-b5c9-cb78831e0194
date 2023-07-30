@@ -9,13 +9,13 @@ select agency,count(*) as no_of_employees from HR_DEPARTMENT group by agency;
 select "Employee Name" from HR_DEPARTMENT where "Position Title"='CONTRACTUAL WORKER';
 
 
---Write a SQL Query to list the Employee name work under Agency ABE LINCOLN PRES LIBRARY MUSZ?*/
+--Write a SQL Query to list the Employee name work under Agency ABE LINCOLN PRES LIBRARY MUSZ?
 select "Employee Name" from HR_DEPARTMENT where Agency = 'ABE LINCOLN PRES LIBRARY MUS2';
 
 
---Write a SQL Query to find the employees count in each position? */
-select "Position Title",count(*) as employee_count from HR_DEPARTMENT group by "Position Title";
+--Write a SQL Query to find the employees count in each position? 
+select "Position Title",count(*) as no_of employees from HR_DEPARTMENT group by "Position Title";
 
 
---Write a SQL Query to count the number of employees whose period pay rate is less than 50000.*/
+--Write a SQL Query to count the number of employees whose period pay rate is less than 50000.
 select count(*) as no_of_employees from HR_DEPARTMENT where "Period Pay Rate" < 50000;
