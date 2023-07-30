@@ -19,4 +19,3 @@ group by "Position Title" ;
 --Write a SQL query to count the number of employees whose period pay rate is less than 50000 
 select count(*) as EMPLOYEES_COUNT from HR_DEPARTMENT
 where "Period Pay Rate" < 50000;   
-
