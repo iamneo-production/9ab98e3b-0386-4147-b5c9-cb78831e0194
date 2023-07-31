@@ -3,6 +3,7 @@ SET TIMING ON;
 select agency,count(*) as EMP_COUNT from hr_department
 group by agency; 
 
+
 --write a SQL query to list the employees who are all CONTRACTUAL WORKER 
 select "Employee Name" from HR_DEPARTMENT
 where "Position Title" ='CONTRACTUAL WORKER';
