@@ -1,5 +1,6 @@
 set timing on;
 
+
 -- write a query to  find the employee count for each agency 
 select agency,count(*) as employee_count from hr_department 
 group by agency;
