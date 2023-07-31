@@ -4,6 +4,8 @@ set timing on;
 select agency,count(*) as employee_count from hr_department 
 group by agency;
 
+
+
 -- write a query to list the employees who are all contractual worker 
 
 select "Employee Name" as "CONTRACTUAL WORKERS" from hr_department where "Position Title" ='CONTRACTUAL WORKER';
