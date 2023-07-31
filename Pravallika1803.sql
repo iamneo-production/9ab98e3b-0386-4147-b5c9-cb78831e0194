@@ -1,5 +1,7 @@
 --HR_DEPARTMENT TABLE :
 
+
+
 SET TIMING ON; -- to check the time taken for the query.
 
 DESC HR_DEPARTMENT --to describe the HR_DEPARTMENT table.
