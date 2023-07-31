@@ -5,6 +5,7 @@ group by agency;
 
 --Write a SQL Query to find the employee count for each agency?
 set timing on;
+
 select "Employee Name" 
 from HR_DEPARTMENT
 where "Position Title" ='CONTRACTUAL_WORKER';
